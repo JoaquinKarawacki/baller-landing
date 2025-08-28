@@ -56,7 +56,7 @@ const msgD = encodeURIComponent(
 
                 {replayA === 0 ? (
                   <div className="demo-snippet demo-snippet--lg demo-snippet--empty">
-                    Pasá el mouse para ver el chat
+                    Toca para ver el chat
                   </div>
                 ) : (
                   <ChatSnippet
@@ -138,7 +138,7 @@ const msgD = encodeURIComponent(
 
                 {replayB === 0 ? (
                   <div className="demo-snippet demo-snippet--lg demo-snippet--empty">
-                    Pasá el mouse para ver el chat
+                    Toca para ver el chat
                   </div>
                 ) : (
                   <ChatSnippet
@@ -223,7 +223,7 @@ const msgD = encodeURIComponent(
 
                 {replayC === 0 ? (
                   <div className="demo-snippet demo-snippet--lg demo-snippet--empty">
-                    Pasá el mouse para ver el chat
+                    Toca para ver el chat
                   </div>
                 ) : (
                   <ChatSnippet
@@ -303,7 +303,7 @@ const msgD = encodeURIComponent(
 
                 {replayD === 0 ? (
                   <div className="demo-snippet demo-snippet--lg demo-snippet--empty">
-                    Pasá el mouse para ver el chat
+                   Toca para ver el chat
                   </div>
                 ) : (
                   <ChatSnippet

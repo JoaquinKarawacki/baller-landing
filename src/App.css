@@ -437,3 +437,33 @@ html { -webkit-text-size-adjust: 100%; }
 /* 6) Botones/CTAs en móvil un poco más compactos */
 .cta-row{ gap: 12px; }
 .btn{ padding: 12px 16px; }
+
+/* --- 1) Más aire entre “Baller” y el menú --- */
+.header__inner{
+  height: var(--header-h, 64px);
+  display: flex;
+  align-items: center;
+  gap: 12px;                 /* separa logo y menú */
+}
+.brand{ 
+  margin-right: auto;        /* empuja el menú a la derecha */
+  padding-right: 8px;        /* un poco de aire extra */
+}
+.nav{ gap: 18px; }           /* espacio entre links */
+
+/* (opcional) línea divisoria más visible */
+.header{ border-bottom: 1px solid rgba(255,255,255,.08); }
+
+/* --- 2) Más espacio del HERO bajo el header (mobile y iOS notch) --- */
+.title{ margin-top: 0; }     /* por si algún estilo le daba margen negativo */
+
+.hero{
+  /* respiro bajo el header sticky */
+  padding-top: calc(var(--header-h, 64px) + 20px);
+}
+@supports (padding: max(0px)) {
+  /* en iPhone con notch la barra de Safari ocupa espacio arriba */
+  .hero{
+    padding-top: calc(var(--header-h, 64px) + max(20px, env(safe-area-inset-top)));
+  }
+}
