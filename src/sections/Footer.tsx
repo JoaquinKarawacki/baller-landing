@@ -36,8 +36,8 @@ export default function Footer() {
             </a>
             <p className="footer__muted" style={{ marginTop: "12px" }}>
               Email:{" "}
-              <a className="footer__link" href="mailto:baller@gmail.com">
-                baller@gmail.com
+              <a className="footer__link" href="mailto:baller.uuy@gmail.com">
+                baller.uuy@gmail.com
               </a>
             </p>
           </div>
