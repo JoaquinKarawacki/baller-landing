@@ -172,7 +172,7 @@ const footerContacts = [
   },
   {
     label: "Instagram",
-    href: "https://instagram.com/baller.uy",
+    href: "https://www.instagram.com/baller.uy/",
   },
   {
     label: "Email",
