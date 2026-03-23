@@ -728,12 +728,16 @@ a {
   }
 
   .footer__meta {
+    grid-template-columns: 1fr;
     justify-content: start;
     margin-right: 0;
+    gap: 24px;
   }
 
   .footer__links {
     justify-content: flex-start;
+    flex-wrap: wrap;
+    white-space: normal;
   }
 }
 
@@ -743,8 +747,11 @@ a {
   }
 
   .topbar__inner {
-    min-height: 78px;
-    gap: 18px;
+    min-height: auto;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    gap: 14px 16px;
+    padding: 14px 0;
   }
 
   .brand__mark {
@@ -757,6 +764,24 @@ a {
     font-size: 1.15rem;
   }
 
+  .brand__text span {
+    font-size: 0.78rem;
+  }
+
+  .topbar__nav {
+    grid-column: 1 / -1;
+    gap: 18px;
+    padding-bottom: 2px;
+    font-size: 0.92rem;
+  }
+
+  .topbar__cta {
+    min-height: 46px;
+    padding: 0 16px;
+    border-radius: 14px;
+    font-size: 0.92rem;
+  }
+
   .hero,
   .section {
     padding: 78px 0;
@@ -764,6 +789,19 @@ a {
 
   .hero__panel {
     min-height: 340px;
+  }
+
+  .hero h1 {
+    font-size: clamp(2.3rem, 10vw, 3.6rem);
+    max-width: 9ch;
+  }
+
+  .hero__lead {
+    font-size: 0.98rem;
+  }
+
+  .hero__actions {
+    gap: 12px;
   }
 
   .showcase-card__body {
@@ -792,16 +830,30 @@ a {
     border-radius: 28px;
   }
 
+  .footer__inner {
+    gap: 32px;
+    align-items: start;
+  }
+
+  .footer__copy {
+    max-width: none;
+  }
+
   .footer__meta {
     grid-template-columns: 1fr;
     gap: 24px;
     margin-right: 0;
   }
 
+  .footer__contact {
+    gap: 12px;
+  }
+
   .footer__links {
     flex-wrap: wrap;
     white-space: normal;
     justify-content: flex-start;
+    gap: 12px 18px;
   }
 }
 
