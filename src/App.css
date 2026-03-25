@@ -972,6 +972,7 @@ a {
   .topbar__cta {
     width: 100%;
     justify-content: center;
+    order: 4;
   }
 
   .topbar__nav {
