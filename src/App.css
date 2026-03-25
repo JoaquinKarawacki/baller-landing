@@ -1015,6 +1015,7 @@ a {
     display: flex;
     min-height: auto;
     margin-top: 8px;
+    justify-content: flex-start;
   }
 
   .hero__highlights {
@@ -1036,6 +1037,7 @@ a {
 
   .showcase-card {
     border-radius: 22px;
+    width: 100%;
   }
 
   .showcase-card__topbar {
