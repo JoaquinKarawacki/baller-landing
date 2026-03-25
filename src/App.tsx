@@ -201,10 +201,6 @@ function App() {
             <a href="#proyectos">Proyectos</a>
             <a href="#contacto">Contacto</a>
           </nav>
-
-          <a className="topbar__cta" href="#contacto">
-            Hablemos
-          </a>
         </div>
       </header>
 
