@@ -1023,11 +1023,7 @@ a {
   }
 
   .hero__panel {
-    display: flex;
-    min-height: auto;
-    margin-top: 0;
-    align-self: start;
-    justify-content: flex-start;
+    display: none;
   }
 
   .hero__highlights {
@@ -1045,64 +1041,6 @@ a {
 
   .button {
     width: 100%;
-  }
-
-  .showcase-card {
-    border-radius: 22px;
-    width: 100%;
-  }
-
-  .showcase-card__topbar {
-    padding: 14px 16px;
-  }
-
-  .showcase-card__topbar p {
-    font-size: 0.84rem;
-  }
-
-  .showcase-card__body {
-    padding: 14px;
-    gap: 14px;
-  }
-
-  .showcase-card__headline strong {
-    font-size: 1rem;
-  }
-
-  .showcase-card__headline span,
-  .metric-card span,
-  .showcase-step__label {
-    font-size: 0.82rem;
-  }
-
-  .metric-card {
-    padding: 12px 14px;
-  }
-
-  .metric-card strong {
-    font-size: 1.02rem;
-  }
-
-  .showcase-card__metrics {
-    grid-template-columns: 1fr;
-    gap: 10px;
-  }
-
-  .showcase-flow {
-    gap: 10px;
-  }
-
-  .showcase-flow__arrow {
-    margin-left: 18px;
-    height: 16px;
-  }
-
-  .showcase-step {
-    padding: 12px 14px;
-  }
-
-  .showcase-step strong {
-    font-size: 0.94rem;
   }
 
   .service-card,
