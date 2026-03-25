@@ -966,8 +966,7 @@ a {
   }
 
   .brand__text span {
-    font-size: 0.72rem;
-    line-height: 1.35;
+    display: none;
   }
 
   .topbar__cta {
@@ -983,6 +982,10 @@ a {
   .hero,
   .section {
     padding: 52px 0;
+  }
+
+  .hero {
+    padding-top: 40px;
   }
 
   .eyebrow-pill {
@@ -1002,6 +1005,15 @@ a {
     max-width: 8ch;
   }
 
+  .hero__lead {
+    font-size: 0.9rem;
+    line-height: 1.55;
+  }
+
+  .hero__panel {
+    display: none;
+  }
+
   .hero__highlights {
     gap: 10px;
   }
@@ -1009,6 +1021,10 @@ a {
   .hero__highlights li {
     font-size: 0.93rem;
     gap: 10px;
+  }
+
+  .hero__highlights li:nth-child(n + 3) {
+    display: none;
   }
 
   .button {
@@ -1044,6 +1060,15 @@ a {
     border-radius: 20px;
   }
 
+  .service-card__badge,
+  .project-card__badge,
+  .process-card__step {
+    width: 46px;
+    height: 46px;
+    margin-bottom: 14px;
+    font-size: 0.96rem;
+  }
+
   .service-card h3,
   .process-card h3,
   .project-card h3,
@@ -1051,8 +1076,29 @@ a {
     font-size: 1.14rem;
   }
 
+  .service-card p,
+  .project-card p,
+  .process-card p,
+  .contact-card span,
+  .service-card li,
+  .project-card li {
+    font-size: 0.9rem;
+  }
+
+  .process-card {
+    padding: 18px 16px;
+  }
+
+  .process-card p {
+    font-size: 0.9rem;
+  }
+
   .project-card__lead {
     margin-bottom: 8px;
+  }
+
+  .contact-grid {
+    gap: 16px;
   }
 
   .contact-grid {
@@ -1061,6 +1107,10 @@ a {
 
   .footer {
     padding: 34px 0 40px;
+  }
+
+  .footer__contact-links {
+    gap: 10px;
   }
 
   .footer__links,
