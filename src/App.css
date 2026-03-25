@@ -989,6 +989,16 @@ a {
     padding-top: 40px;
   }
 
+  .hero__grid {
+    grid-template-columns: minmax(0, 1fr) minmax(140px, 42%);
+    align-items: start;
+    gap: 14px;
+  }
+
+  .hero__content {
+    min-width: 0;
+  }
+
   .eyebrow-pill {
     min-height: 36px;
     padding: 0 14px;
@@ -1009,12 +1019,14 @@ a {
   .hero__lead {
     font-size: 0.9rem;
     line-height: 1.55;
+    max-width: none;
   }
 
   .hero__panel {
     display: flex;
     min-height: auto;
-    margin-top: 8px;
+    margin-top: 0;
+    align-self: start;
     justify-content: flex-start;
   }
 
@@ -1069,6 +1081,11 @@ a {
 
   .metric-card strong {
     font-size: 1.02rem;
+  }
+
+  .showcase-card__metrics {
+    grid-template-columns: 1fr;
+    gap: 10px;
   }
 
   .showcase-flow {
