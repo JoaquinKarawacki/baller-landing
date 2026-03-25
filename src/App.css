@@ -1013,13 +1013,15 @@ a {
 
   .hero h1 {
     font-size: clamp(1.95rem, 10vw, 2.7rem);
-    max-width: 8ch;
+    max-width: 100%;
+    text-align: center;
   }
 
   .hero__lead {
     font-size: 0.9rem;
     line-height: 1.55;
     max-width: none;
+    text-align: center;
   }
 
   .hero__panel {
@@ -1028,6 +1030,7 @@ a {
 
   .hero__highlights {
     gap: 10px;
+    width: 100%;
   }
 
   .hero__highlights li {
@@ -1036,10 +1039,14 @@ a {
   }
 
   .hero__highlights li:nth-child(n + 3) {
-    display: none;
+    display: flex;
   }
 
   .button {
+    width: 100%;
+  }
+
+  .hero__actions {
     width: 100%;
   }
 
